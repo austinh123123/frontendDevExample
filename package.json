@@ -1,0 +1,21 @@
+{
+  "name": "frontenddevexample",
+  "version": "1.0.0",
+  "description": "Example of a frontend developement setup for Azure AD B2C",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack --config webpack.config.js --mode production",
+    "start": "webpack-dev-server --config webpack.config.js --host 0.0.0.0 --hot --open --mode development"
+  },
+  "author": "Austin",
+  "license": "ISC",
+  "devDependencies": {
+    "html-loader": "^4.2.0",
+    "html-webpack-inject-attributes-plugin": "^1.0.6",
+    "html-webpack-plugin": "^5.5.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
